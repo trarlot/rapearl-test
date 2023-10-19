@@ -1,0 +1,28 @@
+.banner {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin: 40px 0 20px;
+  overflow: hidden;
+}
+.banner img {
+  background-color: rgb(76, 59, 138);
+  max-width: 563px;
+  width: 100%;
+  border-radius: 10px;
+}
+
+@media (min-width: 768px) {
+  .banner img {
+    max-width: 1024px;
+  }
+  .banner {
+    margin: 75px 0 20px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .banner {
+    margin: 100px 0 20px;
+  }
+}

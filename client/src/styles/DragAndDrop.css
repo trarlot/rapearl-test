@@ -1,0 +1,7 @@
+.dragDrop {
+  border: solid 1px white;
+}
+.dragDrop:hover {
+  border: solid 1px white;
+  border-color: var(--secondary-color);
+}

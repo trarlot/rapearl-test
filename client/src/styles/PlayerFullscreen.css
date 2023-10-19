@@ -1,0 +1,90 @@
+.coverFs {
+  box-shadow: inset -5px 0px 0px 0px #1d1d1d;
+  width: 100%;
+  max-width: 500px;
+}
+.coverFs img {
+  width: 100%;
+  height: 100%;
+
+  object-fit: cover;
+}
+.containerFs {
+  height: 60px;
+}
+.infoFs {
+  margin-left: 5px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.infoFs p {
+  display: inline-block;
+  margin: 0;
+  font-weight: 600;
+  margin-left: 15px;
+  font-size: 18px;
+  color: #ffffff;
+  width: 100%;
+  margin: 0;
+}
+.infoFs {
+  overflow: hidden;
+}
+.infoFs .titleFs:after {
+  position: absolute;
+  content: attr(data-text);
+  left: 102%;
+}
+.infoFs .titleFs {
+  display: inline-block; /* modèle de boîte en ligne */
+  white-space: nowrap; /* pas de passage à la ligne */
+}
+@keyframes defilement-rtl {
+  0% {
+    transform: translate(0, 0); /* position initiale à droite */
+  }
+  10% {
+    transform: translate(0, 0); /* position finale à gauche */
+  }
+  100% {
+    transform: translate(-102%, 0); /* position finale à gauche */
+  }
+}
+.infoFs .artistFs {
+  font-size: 16px;
+  font-weight: 400;
+  color: #d3d3d3;
+}
+.center-buttonsFs {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.playerFs button {
+  display: block;
+}
+.center-buttonsFs svg {
+  fill: white;
+  width: 25px;
+  height: 35px;
+}
+.timelineFs {
+  width: 70%;
+  background-color: #ffffff;
+  height: 3px;
+  border-radius: 5px;
+}
+.side-buttonsFs {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+}
+.side-buttonsFs svg {
+  width: 25px;
+  height: 35px;
+  fill: #ffffff;
+}

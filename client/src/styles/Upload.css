@@ -1,0 +1,77 @@
+.main-upload {
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  padding-top: 50px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.main-upload form {
+  width: 100%;
+}
+.main-upload p {
+  text-align: center;
+  color: white;
+}
+.main-upload .flip {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: white;
+  border: solid 2px white;
+  transition: 0.3s;
+  width: 200px;
+  cursor: pointer;
+}
+.addFiles {
+  fill: white;
+
+  width: 50px;
+  margin: 0 auto;
+  font-size: 50px;
+  padding: 50px;
+  border-radius: 15px;
+}
+.addFiles:hover {
+}
+.sc-aXZVg {
+  border: solid 1px white;
+}
+.sc-aXZVg:hover {
+  border-color: var(--secondary-color);
+  cursor: pointer;
+}
+.sc-aXZVg:hover .addFiles,
+.sc-aXZVg:hover p {
+  fill: var(--secondary-color);
+  color: var(--secondary-color);
+}
+.none {
+  display: none;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  border-bottom: solid 2px var(--secondary-color);
+  margin-bottom: 25px;
+}
+.main-upload .header button {
+  width: 100px;
+}
+.btnSingle,
+.btnAlbum {
+  border: solid 2px var(--secondary-color);
+  border-bottom: unset;
+  border-radius: 5px 5px 0 0;
+  padding: 5px 0;
+  transition: 0.3s;
+}
+.uploadActive {
+  border-color: var(--secondary-color);
+  background-color: var(--secondary-color);
+}
