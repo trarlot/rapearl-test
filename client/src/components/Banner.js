@@ -5,7 +5,7 @@ function Banner() {
     return (
         <div className="banner">
             <img
-                alt="Bannière publiciataire"
+                alt="Bannière publicitaire"
                 src={'../../assets/banner.jpg'}></img>
         </div>
     );
