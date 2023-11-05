@@ -4,7 +4,9 @@ import '../styles/Banner.css';
 function Banner() {
     return (
         <div className="banner">
-            <img alt="" src={'../../assets/banner.jpg'}></img>
+            <img
+                alt="Bannière publiciataire"
+                src={'../../assets/banner.jpg'}></img>
         </div>
     );
 }

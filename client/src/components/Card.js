@@ -20,7 +20,7 @@ function Card({ IdUser, Titre, Cover }) {
 
     return (
         <div className="card">
-            <img alt="" src={Cover}></img>
+            <img alt="Cover de l'album " src={Cover}></img>
             <h3> {Titre}</h3>
             <p>{ArtistName}</p>
         </div>

@@ -9,7 +9,9 @@ function CoverFs() {
                 <div className="dots"></div>
             </div>
             <div className="coverFs">
-                <img alt="cover" src="../../assets/covers/500x500.jpg"></img>
+                <img
+                    alt="Cover UMLA - Alpha Wann"
+                    src="../../assets/covers/500x500.jpg"></img>
             </div>
 
             <div className="infoFs">
