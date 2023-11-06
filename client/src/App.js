@@ -9,10 +9,11 @@ import Pro from './pages/Pro.js';
 import Upload from './pages/Upload.js';
 import Register from './pages/Register.js';
 import Playlists from './pages/Playlists.js';
+import ReactGA from 'react-ga';
 import { BrowserRouter, Route, Routes, Navigate } from 'react-router-dom';
 function App() {
     const [isAuthenticated, setIsAuthenticated] = useState(false);
-
+    ReactGA.initialize('UA-546123387');
     hasAuthenticated()
         .then((responseData) => {
             setIsAuthenticated(responseData);

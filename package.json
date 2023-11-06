@@ -585,6 +585,7 @@
         "react-drag-drop-files": "^2.3.10",
         "react-draggable": "^4.4.5",
         "react-error-overlay": "^6.0.11",
+        "react-ga": "^3.3.1",
         "react-is": "^17.0.2",
         "react-refresh": "^0.11.0",
         "react-router": "^6.8.2",
