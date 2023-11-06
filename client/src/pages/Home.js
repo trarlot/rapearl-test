@@ -18,12 +18,12 @@ function Home() {
     }, []);
 
     return (
-        <div className="Home">
+        <section className="Home">
             <Banner />
             <Row albumsArray={albumsArray} />
             <Row />
             <Row />
-        </div>
+        </section>
     );
 }
 

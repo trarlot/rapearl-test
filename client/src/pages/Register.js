@@ -59,7 +59,7 @@ function Register() {
     };
 
     return (
-        <div className="forms">
+        <section className="forms">
             <form
                 onSubmit={login}
                 className="login"
@@ -143,7 +143,7 @@ function Register() {
                     ? 'Pas de compte ? Inscrivez-vous !'
                     : 'Déjà inscrit ? Connectez-vous !'}
             </button>
-        </div>
+        </section>
     );
 }
 

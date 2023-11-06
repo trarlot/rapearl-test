@@ -45,7 +45,7 @@ function Nav() {
                                 <>
                                     <button onClick={toggle}>
                                         <img
-                                            alt="Icone Utilisateur"
+                                            aria-label="Mon profil"
                                             id="user"
                                             src={user}
                                         />
@@ -90,29 +90,29 @@ function Nav() {
                 <div className="nav-lateral">
                     <div className="links-lateral">
                         <Link to="/">
-                            <img alt="Icone Accueil" src={home}></img>
+                            <img aria-label="Accueil" src={home}></img>
                             <h2>Acceuil</h2>
                         </Link>
                         <Link to="/search">
-                            <img alt="Icone Recherche" src={search}></img>
+                            <img aria-label="Recherche" src={search}></img>
                             <h2>Recherche</h2>
                         </Link>
                         <Link to="/lib">
-                            <img alt="Icone Bibliothèque" src={lib}></img>
+                            <img aria-label="Bibliothèque" src={lib}></img>
                             <h2>Bibliothèque</h2>
                         </Link>
                         <div className="others-links">
                             <Link to="/playlists">
                                 <img
                                     className="rectangle"
-                                    alt="Icone +"
+                                    aria-label="Crée une playlist"
                                     src={plus}></img>
                                 <h2>Crée une playliste</h2>
                             </Link>
                             <Link to="/playlists">
                                 <img
                                     className="rectangle"
-                                    alt="Icone coeur"
+                                    aria-label="Titres likés"
                                     src={heart}></img>
                                 <h2>Titres likés</h2>
                             </Link>
