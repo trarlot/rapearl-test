@@ -1,6 +1,6 @@
 # Installation et démarrage de l'application avec Docker
 
-Ce guide vous explique comment installer et démarrer une application provenant de GitHub en utilisant Docker.
+Ce guide vous explique comment installer et démarrer l'application localement.
 
 1. **Clonez le dépôt GitHub** : Utilisez la commande suivante pour cloner le dépôt GitHub contenant l'application :
 
